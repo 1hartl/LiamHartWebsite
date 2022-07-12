@@ -1,7 +1,17 @@
 ---
-title: "Liam Hart Website"
-description: |
-  Welcome to the website. I hope you enjoy it!
+title: "Liam Hart"
+image: "summer_scholar_portrait.jpg"
+links:
+  - label: LinkedIn
+    url: "https://www.linkedin.com/in/liam-hart-322124175/"
+  - label: Podcast
+    url: "https://open.spotify.com/show/1oU6eitGVL0L4misgpovwh"
+  - label: GitHub
+    url: "https://github.com/1hartl"
+  - label: Email
+    url: "mailto:hartli@mail.gvsu.edu"
+output:
+  postcards::solana
 site: distill::distill_website
 ---
 
@@ -12,4 +22,22 @@ knitr::opts_chunk$set(echo = FALSE)
 # https://rstudio.github.io/distill/website.html
 
 ```
+
+## Bio
+
+Liam Hart is an experimental psychologist, podcaster, and rock climber living in Macomb, Michigan. He is currently investigating beliefs under the hypothesis that beliefs are constructed using salient information at the time of report. He won numerous awards in his undergraduate education as a research scholar at Grand Valley State University, including the Excellence-in-a-Discipline award for psychology, the Robert Henderson Leadership Award, and the Frederik Meijer Honors College "Outstanding Creative Achievement" award for his podcast: "Perspectives on Psilocybin: The Science and Mysticism of Magic Mushrooms". He enjoys climbing and collecting vintage clothes.
+
+## Education
+
+**Grand Valley State University** | Allendale, MI
+
+B.S. in Psychology | August 2018 - December 2021
+
+## Experience
+
+**Social Cognition Lab** | Research Assistant | December 2020 - Present
+
+**Professor Jing Chen** | Research Assistant | December 2019 - December 2020
+
+**Planet Rock** | Climbing Instructor | January 2022 - Present
 
