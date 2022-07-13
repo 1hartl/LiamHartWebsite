@@ -15,14 +15,6 @@ output:
 site: distill::distill_website
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
-
-# Learn more about creating websites with Distill at:
-# https://rstudio.github.io/distill/website.html
-
-```
-
 ## Bio
 
 Liam Hart is an experimental psychologist, podcaster, and rock climber living in Macomb, Michigan. He is currently investigating beliefs under the hypothesis that beliefs are constructed using salient information at the time of report. He won numerous awards in his undergraduate education as a research scholar at Grand Valley State University, including the Excellence-in-a-Discipline award for psychology, the Robert Henderson Leadership Award, and the Frederik Meijer Honors College "Outstanding Creative Achievement" award for his podcast: "Perspectives on Psilocybin: The Science and Mysticism of Magic Mushrooms". He enjoys climbing and collecting vintage clothes.
