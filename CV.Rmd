@@ -43,10 +43,15 @@ awards <- data.table::fread(here::here("data/grants_honors_scholarships.csv"),
 
 # Research titles
 
-
+research.titles <- data.table::fread(here::here("data/research_titles.csv"),
+                            encoding = "UTF-8") %>%
+  as_tibble()
 
 # Research descriptions
 
+reasearch.descriptions <- data.table::fread(here::here("data/research_descriptions.csv"),
+                            encoding = "UTF-8") %>%
+  as_tibble()
 
 # Job titles
 job.titles <- data.table::fread(here::here("data/job_titles.csv"),
@@ -60,15 +65,21 @@ job.titles <- data.table::fread(here::here("data/job_titles.csv"),
 
 # Job descriptions
 job.descriptions <-
-  data.table::fread(here::here("data/job_descriptions.csv"),
+  data.table::fread(here::here("data/job_descriptions.csv"), 
                     encoding = "UTF-8") %>%
   as_tibble()
 
 # Campus Involvement
 
+campus.involvement <- data.table::fread(here::here("data/campus_involvement.csv"), 
+                                        encoding = "UTF-8") %>%
+  as_tibble()
 
 # Professional Affiliations
 
+professional.affiliations <- data.table::fread(here::here("data/professional_affiliations.csv"),
+                                               encoding = "UTF-8") %>%
+  as_tibble()
 ```
 
 
@@ -78,12 +89,6 @@ job.descriptions <-
 
 
 
-<p align="center">**Liam W. Hart**</p>
-<p align="center">Curriculum Vitae</p>
-<p align="center">18115 Denali Dr</p>
-<p align="center">Macomb, MI 48042</p>
-<p align="center">\(586\) 915-7434</p>
-<p align="center">hartli@mail.gvsu.edu</p>
 
 **Liam W. Hart**
 Curriculum Vitae
