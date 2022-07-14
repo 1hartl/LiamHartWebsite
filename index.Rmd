@@ -21,5 +21,3 @@ site: distill::distill_website
 ***
 
 I am an experimental psychologist, podcaster, and rock climber living in Macomb, Michigan. I am currently working with Drs. Michael Wolfe and Todd Williams investigating beliefs under the hypothesis that beliefs are constructed using salient information at the time of report. You can usually find me at the nearest climbing gym or typing away at my desk. Check out my podcast ""Perspectives on Psilocybin: The Science and Mysticism of Magic Mushrooms" on any streaming service.
-
-***
