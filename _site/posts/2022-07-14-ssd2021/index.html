@@ -1902,7 +1902,31 @@ d-appendix {
 /* Optional: embed custom fonts here with `@import`          */
 /* This must remain at the top of this file.                 */
 
+@import url('https://fonts.googleapis.com/css2?family=Biryani');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono');
 
+
+@font-face {
+  font-family: 'LEMONMILKPro-Regular';
+  src: local('LEMONMILKPro-Regular'), url('/fonts/LEMONMILKPro-Regular.woff2') format('woff2'), url('/fonts/LEMONMILKPro-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'LEMONMILKPro-Light';
+  src: local('LEMONMILKPro-Light'), url('/fonts/LEMONMILKPro-Light.woff2') format('woff2'), url('/fonts/LEMONMILKPro-Light.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'LEMONMILKPro-UltraLight';
+  src: local('LEMONMILKPro-UltraLight'), url('/fonts/LEMONMILKPro-UltraLight.woff2') format('woff2'), url('/fonts/LEMONMILKPro-UltraLight.woff') format('woff');
+}
+
+:root {
+  --color-background:   white;
+  --color-primary:      #1929B9;
+  --color-secondary:    #0079D1;
+}
 
 html {
   /*-- Main font sizes --*/
@@ -1918,10 +1942,10 @@ html {
   --aside-color:     rgba(0, 0, 0, 0.6);
   --fig-cap-color:   rgba(0, 0, 0, 0.6);
   /*-- Specify custom fonts ~~~ must be imported above   --*/
-  --heading-font:    sans-serif;
-  --mono-font:       monospace;
-  --body-font:       sans-serif;
-  --navbar-font:     sans-serif;  /* websites + blogs only */
+  --heading-font:    "Biryani", sans-serif;
+  --mono-font:       "Fira Mono", monospace;
+  --body-font:       "Quicksand", sans-serif;
+  --navbar-font:     "Biryani", sans-serif;  /* websites + blogs only */
 }
 
 /*-- ARTICLE METADATA --*/
@@ -1950,25 +1974,163 @@ d-appendix {
 /* These properties only apply to Distill sites and blogs  */
 
 .distill-site-header {
-  --title-size:       18px;
-  --text-color:       rgba(255, 255, 255, 0.8);
-  --text-size:        15px;
-  --hover-color:      white;
-  --bkgd-color:       #191970;
+  --title-size:       20px;
+  --text-color:       black; /*rgba(255, 255, 255, 0.8);*/
+  --text-size:        20px;
+  --hover-color:      #1929B9; /*white;*/
+  --bkgd-color:       white; /*#0F2E3D;*/
 }
 
 .distill-site-footer {
-  --text-color:       white;
+  --text-color:       /*rgba(255, 255, 255, 0.8);*/
   --text-size:        15px;
-  --hover-color:      white;
-  --bkgd-color:       #A9A9A9;
+  --hover-color:      #1929B9;
+  --bkgd-color:       white; /*#0F2E3D;*/
 }
 
 /*-- Additional custom styles --*/
-/* Add any additional CSS rules below                      */
+/* Add any additional CSS rules below */
 
-body {
-  background-color: #F5F5F5;
+.distill-site-header {
+  text-transform: uppercase;
+}
+
+h1, h2, h3 {
+  font-family: "Biryani", sans-serif;
+  text-transform: uppercase;
+}
+
+/* remove title - logo suffices*/
+.distill-site-header .title {
+  display: none;
+}
+
+.distill-site-header .logo img {
+   max-height: 60px;
+   width: auto;
+   margin-top: 18px;
+}
+
+/* styling for icon-link buttons (see distilltools::icon_link()) */
+.icon-link {
+    background-color: transparent;
+    color: #1929B9;
+    border: 1px solid;
+    border-color: #1929B9;
+    padding: 5px .4rem 5px .4rem;
+    /*margin: 4px;*/
+    margin-top: 4px;
+    margin-right: 8px;
+    margin-bottom: 4px;
+    border-radius: 5px; /* Rounded edges */
+}
+
+.icon-link:hover {
+    background-color: #1929B9;
+    border-color: #1929B9;
+    color: white;
+}
+
+/*
+For project cards
+Adapted from Ijeamaka Anyene
+https://github.com/Ijeamakaanyene/ijeamaka-anyene
+https://ijeamaka-anyene.netlify.app
+*/
+
+.card {
+    color: #474747;
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 10px;
+    margin: 16px 16px;
+    text-decoration: none;
+    display: flex;
+}
+
+.card-body {
+  padding: 2px 16px;
+}
+
+.card-img {
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  border-radius: 30px;
+}
+
+.card-footer {
+  background-color: #000;
+  color: white;
+  text-align: right;
+  padding-right: 5px;
+}
+
+
+@media screen and (max-width: 992px) {
+  .card {
+    color: #474747;
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 10px;
+    margin: 16px 16px;
+    text-decoration: none;
+    display: block;
+    width: 300px;
+  }
+
+}
+
+/* image on home page - make bigger and squarer*/
+.rounded-circle {
+  border-radius: 3%!important;
+  height: 15rem!important;
+}
+
+/* buttons on postcards homepage page
+.btn-outline-dark targets when window is wide
+.list-group-item targets when window is narrow
+*/
+.btn-outline-dark{
+   color:#1929B9;
+   border-color:#1929B9;
+   font-family: "LEMONMILKPro-Light", sans-serif;
+ }
+
+.btn-outline-dark:hover {
+    background-color: #1929B9;
+    border-color:#1929B9;
+    color: white;
+    font-family: "LEMONMILKPro-Light", sans-serif;
+    border: none;
+}
+
+.list-group-item {
+   color:#1929B9;
+   border-color:#1929B9;
+   font-family: "LEMONMILKPro-Light", sans-serif;
+ }
+
+.list-group-item:hover {
+    background-color: #1929B9;
+    border-color:#1929B9;
+    color: white;
+    font-family: "LEMONMILKPro-Light", sans-serif;
+    border: none;
+ }
+
+/* gets rid of blue text decoration on homepage buttons when window is narrow
+but doesn't seem to affect links throughout the rest of the site.
+This might be a problem if I ever want links on homepage matching style of rest of site, but this hacky fix will do for now*/
+a {
+  text-decoration: none!important;
+}
+
+d-article a:hover, a:focus {
+    color: #1929B9;
+    border-color: #1929B9;
 }</style>
 <style type="text/css">
 /* base style */
