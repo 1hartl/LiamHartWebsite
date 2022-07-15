@@ -1,5 +1,5 @@
 ---
-title: "Liam Hart"
+title: "LIAM HART"
 image: "img/summer_scholar_portrait.jpg"
 base_url: liamhart.netlifly.app
 links:
@@ -16,8 +16,56 @@ output:
 site: distill::distill_website
 ---
 
-## Bio
 
-***
 
-I am an experimental psychologist, podcaster, and rock climber living in Macomb, Michigan. I am currently working with Drs. Michael Wolfe and Todd Williams investigating beliefs under the hypothesis that beliefs are constructed using salient information at the time of report. You can usually find me at the nearest climbing gym or typing away at my desk. Check out my podcast ""Perspectives on Psilocybin: The Science and Mysticism of Magic Mushrooms" on any streaming service.
+## Hello!
+
+I am an experimental psychologist living in Macomb, Michigan. I received my Bachelor of Science with a major in psychology and a minor in applied statistics from Grand Valley State University. I am currently working with Drs. Michael Wolfe and Todd Williams investigating beliefs under the hypothesis that beliefs are constructed using salient information at the time of report. My research interests include metacognition, attention, and learning.
+
+Outside of academics, I am an avid rock climber - the two places I spend the most time at are the climbing gym and at my desk, typing away on my computer. Check out my podcast "Perspectives on Psilocybin: The Science and Mysticism of Magic Mushrooms" on any streaming service.
+
+
+
+```{css, echo = FALSE}
+.columnname {
+  font-size: 1.4rem; 
+  font-weight: 600
+}
+.grad-item {
+  list-style: none;
+  background-image: url(img/diploma.png);
+  background-repeat: no-repeat;  
+  background-size: 1.75rem; 
+  padding-left: 2rem;
+}
+.grad-location {
+  font-size: 1.1rem;
+  color: #0033A0;
+}
+```
+
+:::: {style="display: grid; grid-template-columns: 40% 50%; grid-column-gap: 30px; line-height: 1.5rem;"}
+
+::: {}
+<span class = "columnname"> Interests </span>
+
+* Metacognition
+
+* Attention
+
+* Learning
+:::
+
+
+::: {}
+<span class = "columnname"> Education </span>
+
+<ul>
+ 
+<li class = "grad-item">   B.S. (Hons) in Psychology, 2018-2021 <br> <p class = "grad-location"> Grand Valley State University, Allendale, MI </p> 
+</li>
+
+</ul>
+:::
+
+::::

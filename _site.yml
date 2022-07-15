@@ -7,9 +7,6 @@ output_dir: "_site"
 navbar:
   search: false
   source_url: true
-  left:
-    - text: "Liam Hart"
-      href: index.html
   right:
     - icon: fa-home
       href: index.html
