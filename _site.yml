@@ -1,6 +1,5 @@
 name: "liamhart"
 title: "Liam Hart"
-repository_url: https://github.com/1hartl/LiamHartWebsite
 theme: my_theme.css
 description: |
   Liam Hart Website
@@ -9,10 +8,17 @@ navbar:
   search: false
   source_url: true
   left:
+    - text: "Liam Hart"
+      href: index.html
+  right:
+    - icon: fa-home
+      href: index.html
     - text: "Presentations"
       href: presentations.html
     - text: "CV"
       href: "LiamHartCV-07.11.2022.pdf"
     - text: "Podcast"
       href: "https://open.spotify.com/show/1oU6eitGVL0L4misgpovwh"
+    - icon: fa-github
+      href: "https://github.com/1hartl/LiamHartWebsite"
 output: distill::distill_article

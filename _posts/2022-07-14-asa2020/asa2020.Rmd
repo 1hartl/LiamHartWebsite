@@ -1,5 +1,5 @@
 ---
-title: "Proposed Study (Discontinued because of COVID-19): Examining the Effect of Mindfulness Meditation on Life Satisfaction and Self-Esteem in Retirement Home Residents"
+title: "Proposed Study (Discontinued because of COVID-19): Effect of Mindfulness Meditation on Life Satisfaction and Self-Esteem in Retirement Home Residents"
 preview: "senior-yoga-meditation.jpeg"
 date: 2020-02-26
 output:
