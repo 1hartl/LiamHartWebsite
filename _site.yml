@@ -13,7 +13,7 @@ navbar:
     - text: "Presentations"
       href: presentations.html
     - text: "CV"
-      href: "LiamHartCV-07.11.2022.pdf"
+      href: "LiamHartCV.pdf"
     - text: "Podcast"
       href: "https://open.spotify.com/show/1oU6eitGVL0L4misgpovwh"
     - icon: fa-github
