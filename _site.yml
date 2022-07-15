@@ -12,7 +12,7 @@ navbar:
     - text: "Presentations"
       href: presentations.html
     - text: "CV"
-      href: "LiamHartCV-07.11.2022.pdf"
+      href: "window.open('LiamHartCV-07.11.2022.pdf','_blank')"
     - text: "Podcast"
-      href: https://open.spotify.com/show/1oU6eitGVL0L4misgpovwh
+      href: "window.open('https://open.spotify.com/show/1oU6eitGVL0L4misgpovwh','_blank')"
 output: distill::distill_article
