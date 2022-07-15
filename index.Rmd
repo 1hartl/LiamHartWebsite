@@ -20,7 +20,7 @@ site: distill::distill_website
 
 ## Hello!
 
-I am an experimental psychologist living in Macomb, Michigan. I received my Bachelor of Science with a major in psychology and a minor in applied statistics from Grand Valley State University. I am currently working with Drs. Michael Wolfe and Todd Williams investigating beliefs under the hypothesis that beliefs are constructed using salient information at the time of report. My research interests include metacognition, attention, and learning.
+I am an experimental psychologist living in Macomb, Michigan. I will be applying to psychology PhD programs in the fall. I am currently working with Drs. Michael Wolfe and Todd Williams investigating beliefs under the hypothesis that beliefs are constructed using salient information at the time of report.
 
 Outside of academics, I am an avid rock climber - the two places I spend the most time at are the climbing gym and at my desk, typing away on my computer. Check out my podcast "Perspectives on Psilocybin: The Science and Mysticism of Magic Mushrooms" on any streaming service.
 
