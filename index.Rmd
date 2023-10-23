@@ -1,5 +1,5 @@
 ---
-title: "LIAM HART"
+title: "Liam Hart"
 image: "img/summer_scholar_portrait.jpg"
 base_url: liamhart.netlifly.app
 links:
@@ -49,9 +49,9 @@ Outside of academics, I am an avid rock climber - the two places I spend the mos
 ::: {}
 <span class = "columnname"> Interests </span>
 
-* Metacognition
-
 * Attention
+
+* Perception
 
 * Learning
 :::
