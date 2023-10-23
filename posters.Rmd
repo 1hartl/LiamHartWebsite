@@ -1,5 +1,5 @@
 ---
-title: "Talks"
+title: "Posters"
 ---
 
 ![](img/SummerScholarShowcase1.jpg)

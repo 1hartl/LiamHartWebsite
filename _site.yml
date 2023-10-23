@@ -12,6 +12,8 @@ navbar:
       href: index.html
     - text: "Talks"
       href: talks.html
+    - text: "Posters"
+      href: posters.html
     - text: "CV"
       href: "LiamHartCV.pdf"
     - text: "Podcast"
