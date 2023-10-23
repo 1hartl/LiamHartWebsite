@@ -10,8 +10,8 @@ navbar:
   right:
     - icon: fa-home
       href: index.html
-    - text: "Presentations"
-      href: presentations.html
+    - text: "Talks"
+      href: talks.html
     - text: "CV"
       href: "LiamHartCV.pdf"
     - text: "Podcast"
