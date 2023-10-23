@@ -20,9 +20,9 @@ site: distill::distill_website
 
 ## Hello!
 
-I am an experimental psychologist living in Macomb, Michigan. I will be applying to psychology PhD programs in the fall. I am currently working with Drs. Michael Wolfe and Todd Williams investigating beliefs under the hypothesis that beliefs are constructed using salient information at the time of report.
+I am an aspiring cognitive scientist living in Macomb, Michigan. I will be applying to psychology PhD programs for the Fall 2024 cohort. My research interests lie in examining how attention and perception are influenced by the environment, and how this modulation in cognitive control impacts engagement and learning. To date, my research has explored the ways in which salient information can influence beliefs, how beliefs influence argumentative writing, and if negative attitudes towards aging can be changed by a psychology of aging course. 
 
-Outside of academics, I am an avid rock climber - the two places I spend the most time at are the climbing gym and at my desk, typing away on my computer. Check out my podcast "Perspectives on Psilocybin: The Science and Mysticism of Magic Mushrooms" on any streaming service.
+Outside of academics, I am an avid rock climber. I mostly climb at the Red River Gorge and New River Gorge with my fellow weekend warriors from Planet Rock. Check out my podcast "Perspectives on Psilocybin: The Science and Mysticism of Magic Mushrooms" on any streaming service.
 
 
 
