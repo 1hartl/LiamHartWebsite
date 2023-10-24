@@ -1,25 +1,18 @@
-
-/* base variables */
-
-/* Edit the CSS properties in this file to create a custom
-   Distill theme. Only edit values in the right column
-   for each row; values shown are the CSS defaults.
-   To return any property to the default,
-   you may set its value to: unset
-   All rows must end with a semi-colon.                      */
-
-/* Optional: embed custom fonts here with `@import`          */
-/* This must remain at the top of this file.                 */
-
-@import url('https://fonts.googleapis.com/css2?family=Biryani');
-@import url('https://fonts.googleapis.com/css2?family=Quicksand');
-@import url('https://fonts.googleapis.com/css2?family=Fira+Mono');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 :root {
-  --color-background:   white;
-  --color-primary:      #1c2e39;
-  --color-secondary:    #0079D1;
+  --font-body:   "Roboto",-apple-system,BlinkMacSystemFont,roboto,segoe ui,Helvetica,Arial,sans-serif;
+  --font-header: "Fira Sans Condensed",Tahoma,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  --font-mono:   SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono",monospace;
+  
+  --color-background:   #EAE9EA;
+  --color-primary:      #74a08a;
+  --color-primary-dark: #2F4238;
+  --color-secondary:    #8a74a0;
+  --color-tertiary:     #a08a74;
+  --color-text:         #172a3a;
+  --color-white:        #FFFFFF;
 }
 
 html {
@@ -30,16 +23,16 @@ html {
   --aside-size:      12px;
   --fig-cap-size:    13px;
   /*-- Main font colors --*/
-  --title-color:     #000000;
+  --title-color:     var(--color-text);
   --header-color:    rgba(0, 0, 0, 0.8);
   --body-color:      rgba(0, 0, 0, 0.8);
   --aside-color:     rgba(0, 0, 0, 0.6);
   --fig-cap-color:   rgba(0, 0, 0, 0.6);
   /*-- Specify custom fonts ~~~ must be imported above   --*/
-  --heading-font:    "Biryani", sans-serif;
-  --mono-font:       "Fira Mono", monospace;
-  --body-font:       "Quicksand", sans-serif;
-  --navbar-font:     "Biryani", sans-serif;  /* websites + blogs only */
+  --heading-font:    var(--font-header);
+  --mono-font:       var(--font-mono);
+  --body-font:       var(--font-body);
+  --navbar-font:     var(--font-header);
 }
 
 /*-- ARTICLE TABLE OF CONTENTS --*/
@@ -61,101 +54,122 @@ d-appendix {
 /* These properties only apply to Distill sites and blogs  */
 
 .distill-site-header {
-  --title-size:       20px;
-  --text-color:       white; 
-  --text-size:        20px;
-  --hover-color:      #b9cdd4;
-  --bkgd-color:      #1c2e39;
-  height: 50px;
+  --title-size:       18px;
+  --text-color:       var(--color-primary);
+  --text-size:        18px;
+  --hover-color:      var(--color-secondary);
+  --bkgd-color:       var(--color-background);
+  font-weight:        500;
 }
 
 .distill-site-footer {
-  --text-color:       black
+  --text-color:       #ededeb;
   --text-size:        15px;
-  --hover-color:      white;
-  --bkgd-color:       #b9cdd4;
-  height: 150px;
+  --hover-color:      var(--color-white);
+  --bkgd-color:       var(--color-primary);
 }
 
 
 /*-- Additional custom styles --*/
 /* Add any additional CSS rules below */
 
-.distill-site-header {
-  text-transform: uppercase;
+html body {
+    background-color: var(--color-background);
 }
 
-h1, h2, h3 {
-  font-family: "Biryani", sans-serif;
+/* Links */
+
+a {
+    color: var(--color-primary);
+    border-bottom: 0px;
+    text-decoration: none;
 }
 
-/* styling for icon-link buttons (see distilltools::icon_link()) */
+d-article a {
+    color: var(--color-primary);
+    border-bottom: 0px;
+    text-decoration: none;
+}
+
+a:hover, a:focus {
+    color: var(--color-secondary);
+    font-weight: 500;
+    border-color: var(--color-secondary);
+}
+
+d-article a:hover, a:focus {
+    color: var(--color-secondary);
+    font-weight: 500;
+    border-color: var(--color-secondary);
+}
+
+/* Buttons on home page */
+
+.btn-outline-dark {
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    border: 0px;
+}
+
+.btn-outline-dark:hover {
+    background-color: var(--color-secondary);
+}
+
+/* Menu */
+
+.nav-dropdown-content a {
+    color: var(--color-primary);
+}
+
+.nav-dropdown-content a:hover {
+    background-color: var(--color-background);
+}
+
+/* Link buttons */
 .icon-link {
-    background-color: transparent;
-    color: #1c2e39;
-    border: 1px solid;
-    border-color: #1c2e39;
-    padding: 5px .4rem 5px .4rem;
-    /*margin: 4px;*/
-    margin-top: 4px;
-    margin-right: 8px;
-    margin-bottom: 4px;
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    padding: 3px 5px 3px 5px;
+    margin: 0 2px 0 2px;
     border-radius: 5px; /* Rounded edges */
 }
 
 .icon-link:hover {
-    background-color: #1c2e39;
-    border-color: #1c2e39;
-    color: black;
+    background-color: var(--color-secondary);
+    color: var(--color-white);
 }
 
-/* image on home page - make bigger and squarer*/
-.rounded-circle {
-  border-radius: 3%!important;
-  height: 12rem!important;
+.icon-link-details {
+    background-color: var(--color-primary-dark);
+    color: var(--color-white);
+    padding: 3px 5px 3px 5px;
+    margin: 0 2px 0 2px;
+    border-radius: 5px; /* Rounded edges */
 }
 
-/* buttons on postcards homepage page
-.btn-outline-dark targets when window is wide
-.list-group-item targets when window is narrow
-*/
-.btn-outline-dark{
-   color:#1c2e39;
-   border-color:#1c2e39;
-   font-family: "Quicksand", sans-serif;
- }
-
-.btn-outline-dark:hover {
-    background-color: #1c2e39;
-    border-color:#1c2e39;
-    color: black;
-    font-family: "Quicksand", sans-serif;
-    border: none;
+.icon-link-details:hover {
+    background-color: var(--color-secondary);
+    color: var(--color-white);
 }
 
-.list-group-item {
-   color:#1c2e39;
-   border-color:#1c2e39;
-   font-family: "Quicksand", sans-serif;
- }
+/* Footer */
 
-.list-group-item:hover {
-    background-color: #1c2e39;
-    border-color:#1c2e39;
-    color: black;
-    font-family: "Quicksand", sans-serif;
-    border: none;
- }
-
-/* gets rid of blue text decoration on homepage buttons when window is narrow
-but doesn't seem to affect links throughout the rest of the site.
-This might be a problem if I ever want links on homepage matching style of rest of site, but this hacky fix will do for now*/
-a {
-  text-decoration: none!important;
+.distill-site-footer p {
+    margin-bottom: 0em;
 }
 
-d-article a:hover, a:focus {
-    color: #1c2e39;
-    border-color: #1c2e39;
+/* For dropping a shadow behind images */
+.shadow {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
 }
 
+d-article img {
+  margin-bottom: 10px;
+}
+
+/* Smaller spacing in bullet lists */
+
+d-article li {
+  margin-bottom: 0;
+}

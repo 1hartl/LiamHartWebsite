@@ -5,7 +5,7 @@ title: "Posters"
 ![](img/VerificationMPA2022.jpg)
 *Presenting findings at 32nd Annual Meeting of the Society for Text and Discourse*
 
-## Beliefs Influence Argumentative Writing
+### <span style="color: #0079D1;">Beliefs Influence Argumentative Writing</span>
 
 #### May 8, 2023 / 32nd Annual Meeting of the Society for Text and Discourse
 
@@ -17,7 +17,7 @@ Individual differences in argument schema are a primary determinant of which bas
 
 ![](img/ArgumentPosterMidCogSci2023.jpg)
 
-## Information About Past Beliefs Influences Current Beliefs
+### Information About Past Beliefs Influences Current Beliefs
 
 #### April 21, 2022 / 94th Midwestern Psychological Association Conference
 
@@ -29,7 +29,7 @@ Participants read a gun-control text consistent or inconsistent with beliefs rep
 
 ![](img/BeliefPosterMPA2022.jpg)
 
-## Effect of Mindfulness Meditation on Life Satisfaction and Self-Esteem in Retirement Home Residents: Proposed Study
+### Effect of Mindfulness Meditation on Life Satisfaction and Self-Esteem in Retirement Home Residents: Proposed Study
 
 #### February 26, 2020 / 15th Art and Science of Aging Conference
 
@@ -43,7 +43,7 @@ Mindfulness can be used to describe a variety of practices and processes that ge
 
 ![](img/MeditationPosterAASA2020.jpg)
 
-## The Effect of Different Pre-exercise Treatments on Power Output
+### The Effect of Different Pre-exercise Treatments on Power Output
 
 #### February 26, 2020 / 23rd Grand Valley State University Student Scholars Day
 

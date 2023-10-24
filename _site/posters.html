@@ -1914,28 +1914,21 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   /*-- Additional custom styles --*/
   /* Add any additional CSS rules below                      */
   </style>
-  <style type="text/css">
-  /* base variables */
-
-  /* Edit the CSS properties in this file to create a custom
-     Distill theme. Only edit values in the right column
-     for each row; values shown are the CSS defaults.
-     To return any property to the default,
-     you may set its value to: unset
-     All rows must end with a semi-colon.                      */
-
-  /* Optional: embed custom fonts here with `@import`          */
-  /* This must remain at the top of this file.                 */
-
-  @import url('https://fonts.googleapis.com/css2?family=Biryani');
-  @import url('https://fonts.googleapis.com/css2?family=Quicksand');
-  @import url('https://fonts.googleapis.com/css2?family=Fira+Mono');
-
+  <style type="text/css">@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
   :root {
-    --color-background:   white;
-    --color-primary:      #1c2e39;
-    --color-secondary:    #0079D1;
+    --font-body:   "Roboto",-apple-system,BlinkMacSystemFont,roboto,segoe ui,Helvetica,Arial,sans-serif;
+    --font-header: "Fira Sans Condensed",Tahoma,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    --font-mono:   SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono",monospace;
+    
+    --color-background:   #EAE9EA;
+    --color-primary:      #74a08a;
+    --color-primary-dark: #2F4238;
+    --color-secondary:    #8a74a0;
+    --color-tertiary:     #a08a74;
+    --color-text:         #172a3a;
+    --color-white:        #FFFFFF;
   }
 
   html {
@@ -1946,16 +1939,16 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     --aside-size:      12px;
     --fig-cap-size:    13px;
     /*-- Main font colors --*/
-    --title-color:     #000000;
+    --title-color:     var(--color-text);
     --header-color:    rgba(0, 0, 0, 0.8);
     --body-color:      rgba(0, 0, 0, 0.8);
     --aside-color:     rgba(0, 0, 0, 0.6);
     --fig-cap-color:   rgba(0, 0, 0, 0.6);
     /*-- Specify custom fonts ~~~ must be imported above   --*/
-    --heading-font:    "Biryani", sans-serif;
-    --mono-font:       "Fira Mono", monospace;
-    --body-font:       "Quicksand", sans-serif;
-    --navbar-font:     "Biryani", sans-serif;  /* websites + blogs only */
+    --heading-font:    var(--font-header);
+    --mono-font:       var(--font-mono);
+    --body-font:       var(--font-body);
+    --navbar-font:     var(--font-header);
   }
 
   /*-- ARTICLE TABLE OF CONTENTS --*/
@@ -1977,104 +1970,125 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   /* These properties only apply to Distill sites and blogs  */
 
   .distill-site-header {
-    --title-size:       20px;
-    --text-color:       white; 
-    --text-size:        20px;
-    --hover-color:      #b9cdd4;
-    --bkgd-color:      #1c2e39;
-    height: 50px;
+    --title-size:       18px;
+    --text-color:       var(--color-primary);
+    --text-size:        18px;
+    --hover-color:      var(--color-secondary);
+    --bkgd-color:       var(--color-background);
+    font-weight:        500;
   }
 
   .distill-site-footer {
-    --text-color:       black
+    --text-color:       #ededeb;
     --text-size:        15px;
-    --hover-color:      white;
-    --bkgd-color:       #b9cdd4;
-    height: 150px;
+    --hover-color:      var(--color-white);
+    --bkgd-color:       var(--color-primary);
   }
 
 
   /*-- Additional custom styles --*/
   /* Add any additional CSS rules below */
 
-  .distill-site-header {
-    text-transform: uppercase;
+  html body {
+      background-color: var(--color-background);
   }
 
-  h1, h2, h3 {
-    font-family: "Biryani", sans-serif;
+  /* Links */
+
+  a {
+      color: var(--color-primary);
+      border-bottom: 0px;
+      text-decoration: none;
   }
 
-  /* styling for icon-link buttons (see distilltools::icon_link()) */
+  d-article a {
+      color: var(--color-primary);
+      border-bottom: 0px;
+      text-decoration: none;
+  }
+
+  a:hover, a:focus {
+      color: var(--color-secondary);
+      font-weight: 500;
+      border-color: var(--color-secondary);
+  }
+
+  d-article a:hover, a:focus {
+      color: var(--color-secondary);
+      font-weight: 500;
+      border-color: var(--color-secondary);
+  }
+
+  /* Buttons on home page */
+
+  .btn-outline-dark {
+      background-color: var(--color-primary);
+      color: var(--color-white);
+      border: 0px;
+  }
+
+  .btn-outline-dark:hover {
+      background-color: var(--color-secondary);
+  }
+
+  /* Menu */
+
+  .nav-dropdown-content a {
+      color: var(--color-primary);
+  }
+
+  .nav-dropdown-content a:hover {
+      background-color: var(--color-background);
+  }
+
+  /* Link buttons */
   .icon-link {
-      background-color: transparent;
-      color: #1c2e39;
-      border: 1px solid;
-      border-color: #1c2e39;
-      padding: 5px .4rem 5px .4rem;
-      /*margin: 4px;*/
-      margin-top: 4px;
-      margin-right: 8px;
-      margin-bottom: 4px;
+      background-color: var(--color-primary);
+      color: var(--color-white);
+      padding: 3px 5px 3px 5px;
+      margin: 0 2px 0 2px;
       border-radius: 5px; /* Rounded edges */
   }
 
   .icon-link:hover {
-      background-color: #1c2e39;
-      border-color: #1c2e39;
-      color: black;
+      background-color: var(--color-secondary);
+      color: var(--color-white);
   }
 
-  /* image on home page - make bigger and squarer*/
-  .rounded-circle {
-    border-radius: 3%!important;
-    height: 12rem!important;
+  .icon-link-details {
+      background-color: var(--color-primary-dark);
+      color: var(--color-white);
+      padding: 3px 5px 3px 5px;
+      margin: 0 2px 0 2px;
+      border-radius: 5px; /* Rounded edges */
   }
 
-  /* buttons on postcards homepage page
-  .btn-outline-dark targets when window is wide
-  .list-group-item targets when window is narrow
-  */
-  .btn-outline-dark{
-     color:#1c2e39;
-     border-color:#1c2e39;
-     font-family: "Quicksand", sans-serif;
-   }
-
-  .btn-outline-dark:hover {
-      background-color: #1c2e39;
-      border-color:#1c2e39;
-      color: black;
-      font-family: "Quicksand", sans-serif;
-      border: none;
+  .icon-link-details:hover {
+      background-color: var(--color-secondary);
+      color: var(--color-white);
   }
 
-  .list-group-item {
-     color:#1c2e39;
-     border-color:#1c2e39;
-     font-family: "Quicksand", sans-serif;
-   }
+  /* Footer */
 
-  .list-group-item:hover {
-      background-color: #1c2e39;
-      border-color:#1c2e39;
-      color: black;
-      font-family: "Quicksand", sans-serif;
-      border: none;
-   }
-
-  /* gets rid of blue text decoration on homepage buttons when window is narrow
-  but doesn't seem to affect links throughout the rest of the site.
-  This might be a problem if I ever want links on homepage matching style of rest of site, but this hacky fix will do for now*/
-  a {
-    text-decoration: none!important;
+  .distill-site-footer p {
+      margin-bottom: 0em;
   }
 
-  d-article a:hover, a:focus {
-      color: #1c2e39;
-      border-color: #1c2e39;
+  /* For dropping a shadow behind images */
+  .shadow {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
   }
-  </style>
+
+  d-article img {
+    margin-bottom: 10px;
+  }
+
+  /* Smaller spacing in bullet lists */
+
+  d-article li {
+    margin-bottom: 0;
+  }</style>
   <style type="text/css">
   /* base style */
 
@@ -2240,6 +2254,8 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   <script src="site_libs/webcomponents-2.0.0/webcomponents.js"></script>
   <script src="site_libs/distill-2.2.21/template.v2.js"></script>
   <!--radix_placeholder_site_in_header-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+
   <!--/radix_placeholder_site_in_header-->
 
 
@@ -2273,14 +2289,40 @@ PRESENTATIONS
 </div>
 </div>
 <a href="publications.html">PUBLICATIONS</a>
-<a href="LiamHartCV.pdf">CV</a>
 <a href="https://open.spotify.com/show/1oU6eitGVL0L4misgpovwh">PODCAST</a>
-<a href="https://osf.io/4kx9t/" class="nav-image">
-<img src="img/osf.png"/>
+<div class="nav-dropdown">
+<button class="nav-dropbtn">
+LINKS
+ 
+<span class="down-arrow">&#x25BE;</span>
+</button>
+<div class="nav-dropdown-content">
+<a href="LiamHartCV.pdf">
+<i class="fa ai ai-cv" aria-hidden="true"></i>
 </a>
 <a href="https://github.com/1hartl/LiamHartWebsite">
-<i class="fa fa-github" aria-hidden="true"></i>
+<i class="fab fa-github" aria-hidden="true"></i>
 </a>
+<a href="https://twitter.com/Liam_hartt">
+<i class="fab fa-twitter" aria-hidden="true"></i>
+</a>
+<a href="https://osf.io/4kx9t/">
+<i class="fa ai ai-osf f-lg" aria-hidden="true"></i>
+</a>
+<a href="https://www.linkedin.com/in/liam-hart-322124175/">
+<i class="fa fa-linkedin" aria-hidden="true"></i>
+</a>
+<a href="https://scholar.google.com/citations?user=yuZJmmkAAAAJ&amp;hl=en">
+<i class="fa ai ai-google-scholar f-lg" aria-hidden="true"></i>
+</a>
+<a href="https://www.researchgate.net/profile/Liam-Hart-4">
+<i class="fa &lt;i class=&quot;ai ai-researchgate fa-lg&quot;&gt;&lt;/i&gt;" aria-hidden="true"></i>
+</a>
+<a href="https://orcid.org/my-orcid?orcid=0009-0000-2422-914X">
+<i class="fa ai ai-orcid f-lg" aria-hidden="true"></i>
+</a>
+</div>
+</div>
 <a href="javascript:void(0);" class="nav-toggle">&#9776;</a>
 </div>
 </nav>
@@ -2301,26 +2343,26 @@ PRESENTATIONS
 <div class="d-article">
 <p><img src="img/VerificationMPA2022.jpg" />
 <em>Presenting findings at 32nd Annual Meeting of the Society for Text and Discourse</em></p>
-<h2 id="beliefs-influence-argumentative-writing">Beliefs Influence Argumentative Writing</h2>
+<h3 id="beliefs-influence-argumentative-writing"><span style="color: #0079D1;">Beliefs Influence Argumentative Writing</span></h3>
 <h4 id="may-8-2023-32nd-annual-meeting-of-the-society-for-text-and-discourse">May 8, 2023 / 32nd Annual Meeting of the Society for Text and Discourse</h4>
 <p>Hart, L., Russel, G., Wolfe, M., &amp; Williams, T. (2023) Beliefs Influence Argumentative Writing. Poster presented at the Midwest Cognitive Science Conference, Grand Rapids, MI.</p>
 <h4 id="abstract">Abstract</h4>
 <p>Individual differences in argument schema are a primary determinant of which basic components of argumentation are included in written arguments, but there has been little investigation into other factors at play. The present experiment investigated the influence of beliefs on the generation of written argument. Believers and disbelievers in gun control effectiveness read a one-sided text that was either consistent or inconsistent with their beliefs, then wrote a 250-word argumentative essay explaining their beliefs. Essays were coded for the presence or absence of a claim, number of reasons supporting the claim, and the presence of a and the presence or absence of a claim, counterargument, text content, policy claim, statement about belief change, and evaluative statement about the text. Supplementary subjects rated essays for position on the issue, consideration of both sides, type of support for claim, emotionality, and clarity. Belief-consistent subjects wrote essays that were one-sided but contained higher quality arguments than belief-inconsistent subjects’ essays. Additionally, several of these essay characteristics differed depending on the degree of belief change in response to reading the text. This study provides evidence that beliefs influence the inclusion of certain basic elements of argumentation in argumentative essays, and that the inclusion of these elements changes dynamically as beliefs change.</p>
 <p><img src="img/ArgumentPosterMidCogSci2023.jpg" /></p>
-<h2 id="information-about-past-beliefs-influences-current-beliefs">Information About Past Beliefs Influences Current Beliefs</h2>
+<h3 id="information-about-past-beliefs-influences-current-beliefs">Information About Past Beliefs Influences Current Beliefs</h3>
 <h4 id="april-21-2022-94th-midwestern-psychological-association-conference">April 21, 2022 / 94th Midwestern Psychological Association Conference</h4>
 <p>Hart, L., Russel, G., Wolfe, M., &amp; Williams, T. (2022) Information About Past Beliefs Influences Current Beliefs. Poster presented at the 94th Midwestern Psychological Association Conference, Chicago, IL.</p>
 <h4 id="abstract-1">Abstract</h4>
 <p>Participants read a gun-control text consistent or inconsistent with beliefs reported weeks earlier. They then verified initial beliefs that were accurate, opposite of actual initial beliefs, or did not verify them (control). Verifying accurate initial beliefs changed current beliefs compared to verifying false initial beliefs or not verifying them.</p>
 <p><img src="img/BeliefPosterMPA2022.jpg" /></p>
-<h2 id="effect-of-mindfulness-meditation-on-life-satisfaction-and-self-esteem-in-retirement-home-residents-proposed-study">Effect of Mindfulness Meditation on Life Satisfaction and Self-Esteem in Retirement Home Residents: Proposed Study</h2>
+<h3 id="effect-of-mindfulness-meditation-on-life-satisfaction-and-self-esteem-in-retirement-home-residents-proposed-study">Effect of Mindfulness Meditation on Life Satisfaction and Self-Esteem in Retirement Home Residents: Proposed Study</h3>
 <h4 id="february-26-2020-15th-art-and-science-of-aging-conference">February 26, 2020 / 15th Art and Science of Aging Conference</h4>
 <p>Hart, L. (2020) Effect of Mindfulness Meditation on Life Satisfaction and Self-Esteem in Retirement Home Residents. Poster presented at the 15th Art and Science of Aging Conference, Grand Rapids, MI</p>
 <h4 id="abstract-2">Abstract</h4>
 <p>Mindfulness can be used to describe a variety of practices and processes that generally involves focusing on the present moment and being conscious and aware. Mindfulness meditation has been shown to decrease stress, anxiety, and depression, so it is likely that it will increase life satisfaction and self-esteem. In this poster, I will propose a study that seeks to determine the effect of mindfulness meditation on life satisfaction and self-esteem in older adults living in retirement homes. Participants will undergo an 8-week mindfulness meditation intervention, following a 10-minute guided meditation 4 times per week and will be encouraged to practice daily. Life satisfaction and self-esteem will be measured before and after the 8-week mindfulness meditation.</p>
 <p><em>Note.</em> Unfortunately, this study never saw the light of day. Just a few days before I began to collect data for this study, the COVID-19 pandemic had put an end to in-person research for the foreseeable future.</p>
 <p><img src="img/MeditationPosterAASA2020.jpg" /></p>
-<h2 id="the-effect-of-different-pre-exercise-treatments-on-power-output">The Effect of Different Pre-exercise Treatments on Power Output</h2>
+<h3 id="the-effect-of-different-pre-exercise-treatments-on-power-output">The Effect of Different Pre-exercise Treatments on Power Output</h3>
 <h4 id="february-26-2020-23rd-grand-valley-state-university-student-scholars-day">February 26, 2020 / 23rd Grand Valley State University Student Scholars Day</h4>
 <p>Gordon, J., Hart, L., Montalbano, J., Warner, A., &amp; Zanders, S. (2019) The Effect of Different Pre-exercise Treatments on Power Output. Poster presented at the 23rd Grand Valley State University Student Scholars Day, Allendale, MI.</p>
 <h4 id="abstract-3">Abstract</h4>
