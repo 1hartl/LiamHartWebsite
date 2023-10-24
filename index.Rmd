@@ -21,10 +21,9 @@ site: distill::distill_website
 
 ## Hello!
 
-I am an aspiring cognitive scientist living in Macomb, Michigan. I will be applying to psychology PhD programs for the Fall 2024 cohort. My research interests lie in examining how attention and perception are influenced by the environment, and how this modulation in cognitive control impacts engagement and learning. To date, my research has explored the ways in which salient information can influence beliefs, how beliefs influence argumentative writing, and if negative attitudes towards aging can be changed by a psychology of aging course. 
+I am an aspiring cognitive scientist that is interested in studying attention, perception and cognitive control. I am also interested in how environmental influences can modulate cognitive control and impact learning and engagement. To date, my research has explored the ways in which salient information can influence beliefs, how beliefs influence argumentative writing, and if negative attitudes towards aging can be changed by a psychology of aging course. 
 
-Outside of academics, I am an avid rock climber. I mostly climb sport routes at the Red River Gorge and New River Gorge with my fellow weekend warriors from Planet Rock, but I have also been dabbling in traditional climbing. Check out my podcast "Perspectives on Psilocybin: The Science and Mysticism of Magic Mushrooms" on any streaming service.
-
+Outside of academics, I am an avid rock climber. I mostly climb sport routes at the Red River Gorge and New River Gorge with my fellow weekend warriors from Planet Rock. Check out my podcast "Perspectives on Psilocybin: The Science and Mysticism of Magic Mushrooms" on any streaming service.
 
 
 ```{css, echo = FALSE}
