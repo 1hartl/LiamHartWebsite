@@ -2,12 +2,12 @@
 title: "Publications"
 ---
 
-### In Progress
+## <span style="color: #25274D;">In Progress</span> 
 
-Liam W. Hart, Michael B. Wolfe, Greg Russell, and Todd J. Williams. (received decision of revise and resubmit). <span style="color: #0079D1;">Belief Change After Reading Predicts Argumentative Essay Content.</span> 
+Liam W. Hart, Michael B. Wolfe, Greg Russell, and Todd J. Williams. (received decision of revise and resubmit). <span style="color: #2E9CCA;">Belief Change After Reading Predicts Argumentative Essay Content.</span> 
 
-Michael B. Wolfe, Todd J. Williams, Alex J. Denison, and Liam W. Hart. (under review). <span style="color: #0079D1;">Verification of Past Beliefs Moderates Belief Change.</span> 
+Michael B. Wolfe, Todd J. Williams, Alex J. Denison, and Liam W. Hart. (under review). <span style="color: #2E9CCA;">Verification of Past Beliefs Moderates Belief Change.</span> 
 
-### 2023
+## <span style="color: #25274D;">2023</span> 
 
-Liam W. Hart & Jing Chen (2023) <span style="color: #0079D1;">Can a course on aging with a service-learning component change students’ attitudes toward aging?</span> Educational Gerontology, 49:10, 894-904, [https://doi.org/10.1080/03601277.2023.2178171](https://doi.org/10.1080/03601277.2023.2178171)
+Liam W. Hart & Jing Chen (2023) <span style="color: #2E9CCA;">Can a course on aging with a service-learning component change students’ attitudes toward aging?</span> Educational Gerontology, 49:10, 894-904, [https://doi.org/10.1080/03601277.2023.2178171](https://doi.org/10.1080/03601277.2023.2178171)

@@ -22,24 +22,18 @@ navbar:
       href: "https://open.spotify.com/show/1oU6eitGVL0L4misgpovwh"
     - text: "LINKS"
       menu:
-        - icon: ai ai-cv
+        - text: "CV"
           href: "LiamHartCV.pdf"
-        - icon: fab fa-github
-          href: "https://github.com/1hartl/LiamHartWebsite"
         - icon: fab fa-twitter
           href: "https://twitter.com/Liam_hartt"
-        - icon: ai ai-osf f-lg
-          href: "https://osf.io/4kx9t/"
-        - icon: fa fa-linkedin
+        - icon: fab fa-github
+          href: "https://github.com/1hartl/LiamHartWebsite"
+        - icon: fab fa-linkedin
           href: "https://www.linkedin.com/in/liam-hart-322124175/"
-        - icon: ai ai-google-scholar f-lg
+        - image: img/osf.png
+          href: "https://osf.io/4kx9t/"
+        - image: img/googlescholar.png
           href: "https://scholar.google.com/citations?user=yuZJmmkAAAAJ&hl=en"
-        - icon: '<i class="ai ai-researchgate fa-lg"></i>'
-          href: "https://www.researchgate.net/profile/Liam-Hart-4"
-        - icon: ai ai-orcid f-lg
+        - image: img/orcid.png
           href: "https://orcid.org/my-orcid?orcid=0009-0000-2422-914X"
-output:
-  distill::distill_article:
-    includes:
-      in_header:
-      - _includes/header.html
+output: distill::distill_article

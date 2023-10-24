@@ -5,19 +5,19 @@
   --font-body:   "Roboto",-apple-system,BlinkMacSystemFont,roboto,segoe ui,Helvetica,Arial,sans-serif;
   --font-header: "Fira Sans Condensed",Tahoma,"Helvetica Neue",Helvetica,Arial,sans-serif;
   --font-mono:   SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono",monospace;
-  
-  --color-background:   #EAE9EA;
-  --color-primary:      #74a08a;
-  --color-primary-dark: #2F4238;
-  --color-secondary:    #8a74a0;
-  --color-tertiary:     #a08a74;
-  --color-text:         #172a3a;
+
+  --color-background:   #E9F1FA;
+  --color-primary:      #29648A;
+  --color-primary-dark: #25274D;
+  --color-secondary:    #2E9CCA;
+  --color-tertiary:     #AAABB8;
+  --color-text:         #464866;
   --color-white:        #FFFFFF;
 }
 
 html {
   /*-- Main font sizes --*/
-  --title-size:      35px;
+  --title-size:      50px;
   --body-size:       1.06rem;
   --code-size:       14px;
   --aside-size:      12px;
@@ -131,7 +131,6 @@ d-article a:hover, a:focus {
     color: var(--color-white);
     padding: 3px 5px 3px 5px;
     margin: 0 2px 0 2px;
-    border-radius: 5px; /* Rounded edges */
 }
 
 .icon-link:hover {

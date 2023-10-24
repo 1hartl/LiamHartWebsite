@@ -5,8 +5,10 @@ base_url: liamhart.netlifly.app
 links:
   - label: '`r fontawesome::fa("linkedin")`'
     url: "https://www.linkedin.com/in/liam-hart-322124175/"
-  - label: '`r fontawesome::fa("spotify")`'
+  - label: '`r fontawesome::fa("podcast")`'
     url: "https://open.spotify.com/show/1oU6eitGVL0L4misgpovwh"
+  - label: '`r fontawesome::fa("university")`'
+    url: "https://scholar.google.com/citations?user=yuZJmmkAAAAJ&hl=en"
   - label: '`r fontawesome::fa("github")`'
     url: "https://github.com/1hartl"
   - label: '`r fontawesome::fa("envelope")`'
@@ -15,7 +17,6 @@ output:
   postcards::jolla
 site: distill::distill_website
 ---
-
 
 
 ## Hello!
@@ -29,11 +30,11 @@ Outside of academics, I am an avid rock climber. I mostly climb sport routes at 
 ```{css, echo = FALSE}
 .columnname {
   font-size: 1.4rem; 
-  font-weight: 600
+  font-weight: 600;
 }
 .grad-item {
   list-style: none;
-  background-image: url(img/diploma.png);
+  background-image: url(img/gradhat.png);
   background-repeat: no-repeat;  
   background-size: 1.75rem; 
   padding-left: 2rem;
