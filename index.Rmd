@@ -7,12 +7,12 @@ links:
     url: "https://www.linkedin.com/in/liam-hart-322124175/"
   - label: '`r fontawesome::fa("podcast")`'
     url: "https://open.spotify.com/show/1oU6eitGVL0L4misgpovwh"
-  - label: '`r fontawesome::fa("university")`'
-    url: "https://scholar.google.com/citations?user=yuZJmmkAAAAJ&hl=en"
-  - label: '`r fontawesome::fa("github")`'
-    url: "https://github.com/1hartl"
   - label: '`r fontawesome::fa("envelope")`'
     url: "mailto:hartli@mail.gvsu.edu"
+  - label: '`r fontawesome::fa("university")`'
+    url: "https://scholar.google.com/citations?user=yuZJmmkAAAAJ&hl=en"
+  - label: '`r fontawesome::fa("twitter")`'
+    url: "https://twitter.com/Liam_hartt"
 output:
   postcards::jolla
 site: distill::distill_website
