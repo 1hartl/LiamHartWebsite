@@ -103,6 +103,12 @@ d-article a:hover, a:focus {
     border-color: var(--color-secondary);
 }
 
+/* image on home page - make bigger and squarer*/
+.rounded-circle {
+  border-radius: 3%!important;
+  height: 15rem!important;
+}
+
 /* Buttons on home page */
 
 .btn-outline-dark {

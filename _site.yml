@@ -18,12 +18,12 @@ navbar:
           href: posters.html
     - text: "PUBLICATIONS"
       href: publications.html
-    - text: "PODCAST"
-      href: "https://open.spotify.com/show/1oU6eitGVL0L4misgpovwh"
-    - text: "LINKS"
+    - text: "CV"
+      href: "LiamHartCV.pdf"
+    - text: "MORE"
       menu:
-        - text: "CV"
-          href: "LiamHartCV.pdf"
+        - text: "PODCAST"
+          href: "https://open.spotify.com/show/1oU6eitGVL0L4misgpovwh"
         - icon: fab fa-twitter
           href: "https://twitter.com/Liam_hartt"
         - icon: fab fa-github
@@ -36,4 +36,6 @@ navbar:
           href: "https://scholar.google.com/citations?user=yuZJmmkAAAAJ&hl=en"
         - image: img/orcid.png
           href: "https://orcid.org/my-orcid?orcid=0009-0000-2422-914X"
+        - image: img/mtnproj.jpg
+          href: "https://www.mountainproject.com/user/201318969/liam-hart"
 output: distill::distill_article
