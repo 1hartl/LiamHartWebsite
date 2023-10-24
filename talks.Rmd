@@ -3,10 +3,21 @@ title: "Talks"
 ---
 
 ![](img/SummerScholarShowcase1.jpg)
+*On stage at Student Summer Scholars Showcase*
+
+## Research, Student Scholarship and Beyond: My Academic Journey
+
+#### April 12, 2023 / 32nd Annual Meeting of the Society for Text and Discourse / [Slides](documents/SSD_2023.pptx)
+
+Hart, L. (2023) Research, Student Scholarship and Beyond: My Academic Journey. Oral presentation at the 27th Grand Valley State University Student Scholar's Day, Allendale, MI
+
+#### Abstract
+
+As a recent graduate with a bachelor's in psychology and applied statistics, Liam will provide an overview of his academic research and reflect on its value for graduate school applications. In his freshman year, Liam began research in an exercise science lab before declaring psychology as a major. In his senior year (2022), Liam was awarded the “Excellence in a Discipline” and the “Robert Hendersen Leadership” awards. Since then, he has engaged in two separate lines of research in social and cognitive psychology which have led to peer-reviewed publications and several manuscripts in progress. As an integral part of his academic journey, Liam will reflect on his participation in the Student Summer Scholars program and discuss the benefits of such programs offered by the Office of Undergraduate Research and Scholarship (OURS). Liam will discuss the importance of faculty mentorship and how active involvement in a research lab has helped prepare him for graduate school and a career in research.
 
 ## Beliefs Influence Argumentative Writing
 
-#### July 7, 2022 / 32nd Annual Meeting of the Society for Text and Discourse / [Slides](url or location)
+#### July 7, 2022 / 32nd Annual Meeting of the Society for Text and Discourse / [Slides](documents/STD_2022.pptx)
 
 Hart, L., Russel, G., Wolfe, M., & Williams, T. (2022) Belief Change After Reading Predicts Argumentative Essay Content. Paper presented at the 32nd Annual Meeting of the Society for Text and Discourse, virtual.
 
@@ -18,9 +29,29 @@ Believers and disbelievers in gun control effectiveness wrote a 250 word essay e
 vembedr::embed_youtube("a1Pu7sliKxA")
 ```
 
+## Information about Past Beliefs Influences Current Beliefs
+
+#### April 14, 2022 / Student Summer Scholars Showcase / [Slides](documents/SSD_2022.pptx)
+
+Hart, L. Russel, G. (2022) Information about Past Beliefs Influences Current Beliefs. Paper presented at the 26th Annual Grand Valley State University Student Scholars Day, Allendale, MI.
+
+#### Abstract
+
+This experiment investigates the influence that information concerning past beliefs has on current beliefs. Participants in the experiment were either believers or disbelievers in the effectiveness of gun control, according to responses on a pre-screening survey. In the study, participants read a text that was either consistent or inconsistent with their beliefs. Next, they verified initial beliefs on gun control from the pre-screen survey that were either accurate, the opposite of their initial beliefs, or they did not verify gun control beliefs. Finally, participants reported their current beliefs and wrote a 250-word essay explaining their beliefs. Verifying true initial beliefs resulted in less belief change. These results support the hypothesis that beliefs are subject to the influence of salient information in the recall context.
+
+## Information about Past Beliefs Influences Current Beliefs
+
+#### September 9, 2021 / Student Summer Scholars Showcase / [Slides](documents/SSSS_2021.pptx)
+
+Hart, L. (2021) Information about Past Beliefs Influences Current Beliefs. Paper presented at the Grand Valley State University Student Summer Scholars Showcase, Allendale, MI.
+
+#### Abstract
+
+This experiment investigated the influence that information concerning past beliefs has on current beliefs. Participants for this experiment were selected on the basis of being strongly in favor or opposed to gun control, according to responses in a pre-screening session. In the study, participants read a text that was consistent or inconsistent with those beliefs. Next, they verified initial beliefs about gun control that were either accurate, the opposite of their actual beliefs (misinformation), or they did not verify gun control beliefs. Participants then reported their beliefs again and wrote approximately 250 words explaining the rationale for their belief. Using a mixed-model, we found that verifying true information about previous beliefs resulted in reduced belief change compared to the other information conditions. These preliminary results partially support the hypothesis that beliefs may be influenced by salient information that is available in the recall context.
+
 ## Can Ageism Be Reduced by Service Learning Built in a Lecture-Based Aging Course?
 
-#### April 13, 2021 / 25th Grand Valley State University Student Scholars Day / [Slides](url or location)
+#### April 13, 2021 / 25th Grand Valley State University Student Scholars Day / [Slides](documents/SSD_2021.pptx)
 
 Hart, L. (2021) Can Ageism Be Reduced by Service Learning Built in a Lecture-Based Aging Course? Paper presented at the 25th Grand Valley State University Student Scholars Day, virtual.
 
@@ -34,9 +65,9 @@ vembedr::embed_youtube("q2vcf8vAUoY")
 
 ## Effect of Mindfulness Meditation on Life Satisfaction and Self-Esteem in Retirement Home Residents: Proposed Study
 
-#### February 26, 2020 / 15th Art and Science of Aging Conference / [Slides](url or location)
+#### February 26, 2020 / 15th Art and Science of Aging Conference / [Slides](documents/MeditationPresentationAASA2020.pptx)
 
-Hart, L. (2020) Effect of Mindfulness  on Life Satisfaction and Self-	Esteem in Retirement Home Residents. Study proposal presented at the 15th Art and Science of Aging Conference, Grand Rapids, MI
+Hart, L. (2020) Effect of Mindfulness on Life Satisfaction and Self-Esteem in Retirement Home Residents. Study proposal presented at the 15th Art and Science of Aging Conference, Grand Rapids, MI
 
 #### Abstract
 
