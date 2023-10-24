@@ -8,7 +8,7 @@ title: "Talks"
 ## <span style="color: #25274D;">Research, Student Scholarship and Beyond: My Academic Journey</span>
 
 
-### April 12, 2023 / 32nd Annual Meeting of the Society for Text and Discourse / [Slides](documents/SSD_2023.pptx)
+### April 12, 2023 / 27th Grand Valley State University Student Scholars Day / [Slides](documents/SSD_2023.pptx)
 
 Hart, L. (2023) Research, Student Scholarship and Beyond: My Academic Journey. Oral presentation at the 27th Grand Valley State University Student Scholar's Day, Allendale, MI
 
@@ -32,7 +32,7 @@ vembedr::embed_youtube("a1Pu7sliKxA")
 
 ## <span style="color: #25274D;">Information about Past Beliefs Influences Current Beliefs</span>
 
-### April 14, 2022 / Student Summer Scholars Showcase / [Slides](documents/SSD_2022.pptx)
+### April 14, 2022 / 26th Grand Valley State University Student Scholars Day / [Slides](documents/SSD_2022.pptx)
 
 Hart, L. Russel, G. (2022) Information about Past Beliefs Influences Current Beliefs. Paper presented at the 26th Annual Grand Valley State University Student Scholars Day, Allendale, MI.
 
