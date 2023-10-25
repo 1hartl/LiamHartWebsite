@@ -19,7 +19,7 @@ navbar:
     - text: "PUBLICATIONS"
       href: publications.html
     - text: "CV"
-      href: "LiamHartCV.pdf"
+      href: "documents/LiamHartCV.pdf"
     - text: "MORE"
       menu:
         - text: "PODCAST"
